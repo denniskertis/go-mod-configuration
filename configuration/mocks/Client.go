@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	messaging "github.com/edgexfoundry/go-mod-messaging/v3/messaging"
+	messaging "github.com/denniskertis/go-mod-messaging/v42/messaging"
 	mock "github.com/stretchr/testify/mock"
 )
 

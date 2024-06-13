@@ -14,11 +14,11 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	dtoCommon "github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/requests"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/responses"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/models"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	dtoCommon "github.com/denniskertis/go-mod-core-contracts/v42/dtos/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos/requests"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos/responses"
+	"github.com/denniskertis/go-mod-core-contracts/v42/models"
 )
 
 const apiKVRoute = common.ApiKVSRoute + "/" + common.Key

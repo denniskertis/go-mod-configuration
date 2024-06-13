@@ -20,9 +20,9 @@ package configuration
 import (
 	"fmt"
 
-	"github.com/edgexfoundry/go-mod-configuration/v3/internal/pkg/consul"
-	"github.com/edgexfoundry/go-mod-configuration/v3/internal/pkg/keeper"
-	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
+	"github.com/denniskertis/go-mod-configuration/v42/internal/pkg/consul"
+	"github.com/denniskertis/go-mod-configuration/v42/internal/pkg/keeper"
+	"github.com/denniskertis/go-mod-configuration/v42/pkg/types"
 )
 
 func NewConfigurationClient(config types.ServiceConfig) (Client, error) {
