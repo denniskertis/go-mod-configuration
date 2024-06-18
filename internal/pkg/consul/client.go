@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-configuration/v3/pkg/types"
+	"github.com/denniskertis/go-mod-configuration/v42/pkg/types"
 	consulapi "github.com/hashicorp/consul/api"
 	"github.com/mitchellh/consulstructure"
 )

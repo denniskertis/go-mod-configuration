@@ -1,4 +1,4 @@
-module github.com/edgexfoundry/go-mod-configuration/v3
+module github.com/denniskertis/go-mod-configuration/v42
 
 go 1.21
 
